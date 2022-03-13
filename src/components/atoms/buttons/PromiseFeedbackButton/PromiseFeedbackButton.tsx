@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Button, { ButtonProps } from "../Button";
-import { Spinner, Check, Failed } from "../../../assets/icons";
+import { Spinner, Check, Failed } from "../../../../assets/icons";
 
 interface PromiseFeedbackButtonProps extends Omit<ButtonProps, "onClick"> {
   onClick: () => Promise<unknown>;
@@ -39,16 +39,10 @@ export const PromiseFeedbackButton = ({
   };
   return (
     <Button onClick={handleClick} {...props}>
-      <span>
-        {state === "isFetching" && (
-          <span style={{ marginRight: 8 }}>{statusIcon["isLoading"]}</span>
-        )}
-        {state === "hasFailed" && (
-          <span style={{ marginRight: 8 }}>{statusIcon["isFailed"]}</span>
-        )}
-        {state === "hasSuccess" && (
-          <span style={{ marginRight: 8 }}>{statusIcon["isSuccess"]}</span>
-        )}
+      <span style={{ display: "flex", alignItems: "center" }}>
+        {state === "isFetching" && <span>{statusIcon["isLoading"]}</span>}
+        {state === "hasFailed" && <span>{statusIcon["isFailed"]}</span>}
+        {state === "hasSuccess" && <span>{statusIcon["isSuccess"]}</span>}
         {state === "idle" && children}
       </span>
     </Button>

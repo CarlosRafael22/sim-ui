@@ -1,5 +1,5 @@
 import type * as Stitches from "@stitches/react";
-import { styled, config } from "../../../stitches.config";
+import { styled, config } from "../../../../stitches.config";
 
 type CSS = Stitches.CSS<typeof config>;
 
