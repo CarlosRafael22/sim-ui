@@ -18,33 +18,46 @@ export const { styled, css, config } = createStitches({
         grayHover: 'rgb(237, 237, 237)',
         grayDisabled: '#d1d7dd',
         whitePrimary: '#fff',
-        blackPrimary: '#173753'
+        blackPrimary: '#173753',
+        violet: '#996DFF'
       },
       space: {
-        1: '5px',
-        2: '10px',
-        3: '15px',
+        1: '0.5rem',
+        2: '0.875rem',
+        3: '1rem',
       },
       fontSizes: {
-        1: '12px',
-        2: '14px',
-        3: '16px',
+        1: '0.75rem',
+        2: '0.875rem',
+        3: '1rem',
+        4: '1.125rem',
       },
       fonts: {
         untitled: 'Untitled Sans, apple-system, sans-serif',
         mono: 'Söhne Mono, menlo, monospace',
+        default: 'Roboto, sans-serif'
       },
       fontWeights: {},
       lineHeights: {},
       letterSpacings: {},
-      sizes: {},
+      sizes: {
+          1: '0.25rem',
+          2: '0.5rem',
+          3: '0.75rem',
+          4: '1rem',
+          5: '1.25rem',
+          6: '1.5rem',
+          7: '1.75rem',
+          8: '2rem'
+      },
       borderWidths: {},
       borderStyles: {},
       radii: {
           1: '2px',
           2: '4px',
           3: '6px',
-          4: '8px'
+          4: '8px',
+          full: '99999px'
       },
       shadows: {},
       zIndices: {},
