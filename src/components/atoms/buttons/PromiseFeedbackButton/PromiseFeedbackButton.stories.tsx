@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import PromiseFeedbackButton from "./PromiseFeedbackButton";
 
 export default {
-  title: "Components/Atoms/PromiseFeedbackButton",
+  title: "Components/Atoms/Buttons/PromiseFeedbackButton",
   component: PromiseFeedbackButton,
   argTypes: {
     backgroundColor: { control: "color" },
