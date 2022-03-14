@@ -12,6 +12,7 @@ const spin = keyframes({
 
 const spinner = css({
   animation: `${spin} infinite 0.8s linear`,
+  display: "block",
 });
 
 const Spinner = () => {

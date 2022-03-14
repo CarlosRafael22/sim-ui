@@ -2,7 +2,7 @@ import React from "react";
 
 const Failed = () => {
   return (
-    <svg width="14px" height="14px" viewBox="0 0 14 14">
+    <svg width="18px" height="18px" viewBox="0 0 18 18">
       <g fill-rule="evenodd">
         <path d="M0 7a7 7 0 1 1 14 0A7 7 0 0 1 0 7z" />
         <path d="M13 7A6 6 0 1 0 1 7a6 6 0 0 0 12 0z" />
