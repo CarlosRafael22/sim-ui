@@ -1,3 +1,5 @@
 export { default as Check } from './Check'
 export { default as Spinner } from './Spinner'
 export { default as Failed } from './Failed'
+export { default as Search } from './Search'
+export { default as Close } from './Close'
